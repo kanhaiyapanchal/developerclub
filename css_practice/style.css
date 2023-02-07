@@ -1,0 +1,162 @@
+.navbar-first{
+    padding: 30px;
+    background-color: #111010;
+    color: white;
+    padding-left: 3%;
+    width: 96%;
+    margin-top: -1%;
+    margin-left: -9px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 164%;
+
+}
+.nav-login{
+    background-color: #7f95ff00;
+    color: white;
+    padding: 3px;
+    float: right;
+    font-size: 26px;
+    height: 63px;
+    width: 8%;
+    border: 3px solid;
+    border-radius: 26px;
+    margin-top: -9px;
+}
+.nav-login:hover{
+    background-color:rgb(243 10 75 / 17%);
+}
+
+
+@media only screen and (max-width:1050px) {
+    .nav-login{
+        width: 18%;
+    } 
+}
+@media only screen and (max-width:500px) {
+    .nav-login{
+        width: 25%;
+    } 
+}
+
+
+/* mainu bar  */
+.mainu-bar{
+    height: 5rem;
+    padding: 16px;
+    margin-top: -22px;
+    background-color: #0000000f;
+    color: green;
+    margin-left: -8px;
+    width: 99%;
+}
+.main-item-bar{
+    list-style: none;
+    color: #bf1f1f;
+    font-weight: 800;
+    padding-left: 47px;
+    font-size: 1.5rem;
+    font-family: emoji;
+   
+}
+ul li{
+    display: inline;
+  }
+
+.nav-item{
+    padding: 14px;
+}
+.nav-item:hover{
+    color: #491172cf;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    border-radius: 28px;
+}
+.nav-item:focus{
+    color: rgb(4, 170, 170);
+    
+}
+
+/* IMage banner  */
+
+div.background {
+    background: url(b.avif) repeat;
+    height: 27rem;
+    width: 101%;
+    margin-left: -8px;
+  }
+  
+  div.transbox {
+  background-color: black;
+      width: 100%;
+      margin-top: -1rem;
+      height: 27rem;
+      opacity: 0.6;
+      
+  }
+.heading-banner{
+    color: white;
+    padding-top: 5rem;
+    padding-left: 4rem;
+}
+.qute-banner{
+    color: white;
+    padding-left: 4rem;
+    padding-top: 8rem;
+    font-weight: 600;
+}
+  
+
+@media only screen and (max-width:900px) {
+    .image-banner{
+        height: 10rem;
+        width: 105%;
+    }
+
+}
+
+/* button toggle  */
+.dropbtn {
+    color: #bf1f1f;
+    font-weight: 800;
+    
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    color: #491172cf;
+    background-color: #2980b900;;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #b9434a;
+    font-size: 20px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
